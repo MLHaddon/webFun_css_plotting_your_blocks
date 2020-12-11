@@ -14,16 +14,20 @@
     background-color: green;
     margin: 10px;
    }
+   #navigation, #main_content{
+    display: inline-block;
+    margin: 10px;
+   }
    #navigation{
     min-height: 300px;
     width: 200px;
     background-color: blue;
-    margin-top: 10px;
    }
    #main_content{
-    min-height: 400px;
+    height: 400px;
     width: 700px;
     background-color: red;
+    vertical-align: top;
    }
    .subcontents{
     min-height: 200px;
